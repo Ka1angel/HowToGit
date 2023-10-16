@@ -1,12 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>My First Steps In Git</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <img src="/src/images/logo.jpg" width="50" height="50" />
+        <h4>Мамин Платон Антонович 1105о</h4>
+        <hr />
+      </header>
+      <div class="column-container justify-content-between">
+        <div class="column-4 card">
+          <h1>Хоккей</h1>
+          <img
+            src="https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_xl_2x/f_auto/primary/cmygmivnv0p86kpwylv0"
+            alt="Хоккей"
+            width="420"
+            height="320"
+          />
+          <p>Я профессиональный хоккеист</p>
+          <p>
+            Я занимаюсь хоккеим 11 лет
+          </p>
+          <h3>Мои  достижения:</h3>
+          <dl>
+            <dt>2 место на Первенстве России</dt>
+            <dt>2 месте в городе Санкт-Петербург</dt>
+          </dl>
+        </div>
+        <div class="column-4 card">
+          <h1>Лучший игрок мир по валоранту</h1>
+          <img
+            src="https://248006.selcdn.ru/main/iblock/9de/9deda128cb677f4c1687c32a46bdc39b/db5109f254b21b4f45af60813a39d32a.jpg"
+            alt="валорант"
+            width="420"
+            height="320"
+          />
+          <p>
+         я просто лучший в этой игре (мой ранг алмаз 1)
+          </p>
+          <h3>Мои достижения по валоранту</h3>
+          <dl>
+            <dt>потерял 800ч своей жизни</dt>
+            <dt>и слил 30к на эту супер крутую игру</dt>
+          </dl>
+        </div>
+        <div class="column-4 card">
+          <h1> это я </h1>
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="Legenda"
+            width="420"
+            height="320"
+          />
+          <p>
+            Я являюсь актером театра и кино, снимался со многими актерами и
+            работаю актером
+          </p>
+          <h3>Мои достижения:</h3>
+          <dl>
+            <dt> я морлодец</dt>
+            <dt> я просто красавчик</dt>
+          </dl>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
